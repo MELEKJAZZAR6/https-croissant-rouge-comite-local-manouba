@@ -1,0 +1,139 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Optionnel : Personnaliser les titres */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700; /* Utiliser le style bold pour les titres */
+}
+
+/* Optionnel : Personnaliser les paragraphes */
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400; /* Utiliser le style regular pour les paragraphes */
+}
+}
+ .carousel-indicators img{
+            width: 40px;
+            display: block;
+        }
+        .carousel-indicators button{
+            width: max-content!important;
+        }
+        .carousel-indicators{
+            position: unset;
+        }
+		
+		#apropos {
+    background: linear-gradient(135deg, #c10100, #ff6b6b);
+    color: white;
+    padding: 100px 0;
+}
+
+#apropos .fa-heartbeat {
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+#apropos .fa-heartbeat:hover {
+    transform: scale(1.1);
+}
+
+#apropos p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+/* Styles pour les cartes */
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+#actualites {
+    background-color: #f8f9fa; /* Fond léger */
+    padding: 80px 0;
+}
+
+#actualites h2 {
+    font-weight: bold;
+    color: #c10100; /* Couleur rouge pour le titre */
+    margin-bottom: 50px;
+}
+
+/* Styles pour les cartes */
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover; /* Ajuster l'image pour couvrir la zone */
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.btn-danger {
+    background-color: #c10100;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-danger:hover {
+    background-color: #a00000; /* Rouge plus foncé au survol */
+}
+
+ .logo-container {
+            width: 100px; /* Largeur du carré */
+            height: 100px; /* Hauteur du carré */
+            overflow: hidden; /* Masque les coins inférieurs */
+            border-radius: 20px 20px 0 0; /* Arrondi uniquement en haut */
+        }
+        .logo-container img {
+            width: 100%; /* Prend toute la largeur du conteneur */
+            height: 100%; /* Prend toute la hauteur du conteneur */
+            object-fit: cover; /* Couvre le conteneur sans déformer l'image */
+        }
